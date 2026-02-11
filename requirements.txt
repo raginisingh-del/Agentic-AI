@@ -1,0 +1,26 @@
+# RAG Research Paper Question Answering System - Requirements
+# Python 3.8+
+
+# Core dependencies
+PyPDF2>=3.0.0
+sentence-transformers>=2.2.0
+faiss-cpu>=1.7.4
+numpy>=1.21.0
+pandas>=1.3.0
+
+# Jupyter and interactive tools
+jupyter>=1.0.0
+ipywidgets>=7.6.0
+
+# Optional: Web UI components
+gradio>=3.0.0
+streamlit>=1.0.0
+
+# Optional: Advanced features
+transformers>=4.20.0
+torch>=1.9.0  # Required for transformers
+
+# Development tools
+black>=22.0.0  # Code formatting
+flake8>=4.0.0  # Linting
+pytest>=7.0.0  # Testing
